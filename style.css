@@ -29,11 +29,13 @@ body {
   display: flex;
   align-items: center;
   gap: 8px;
+  object-fit: cover;
 }
 
 .logo img {
   width: 40px;
   height: 28px;
+  object-fit: cover;
 }
 
 .logo span {
@@ -255,3 +257,4 @@ body {
   }
 
 }
+
