@@ -171,19 +171,39 @@ body {
   background: #e0e0e0;
 }
 
-.image {
+/* === IMAGE STACK (pengganti .image lama) === */
+
+.image-stack {
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;   /* wajib untuk penumpukan */
+  width: 100%;
+  max-width: 600px;     /* sama seperti batas sebelumnya */
 }
 
-.image img {
+/* Gambar pertama (yang di atas) */
+.hero-img-top {
   width: 100%;
-  max-width: 600px;
   height: auto;
   object-fit: cover;
+  position: relative;
+  z-index: 2;
 }
+
+/* Gambar kedua (yang ditumpuk dan diperbesar 2x) */
+.hero-img-bottom {
+  position: absolute;
+  bottom: -60px;              /* lo bisa adjust */
+  left: 50%;
+  transform: translateX(-50%) scale(2); 
+  transform-origin: center bottom; 
+  z-index: 1;
+  opacity: 1;                 /* lo mau 0.8? tinggal ubah */
+  pointer-events: none;       /* biar ga ganggu klik */
+}
+
 
 /* ========== OS Icons Section ========== */
 .os-section {
@@ -269,6 +289,7 @@ body {
   }
 
 }
+
 
 
 
