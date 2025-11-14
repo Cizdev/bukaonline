@@ -196,8 +196,8 @@ body {
 .hero-img-bottom {
   position: absolute;
   z-index: 1;
-
-  transform: scale(0.5); 
+  left: 100%;
+  transform: scale(0.6); 
 }
 
 
