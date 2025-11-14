@@ -94,10 +94,14 @@ body {
   overflow: hidden;
 
   /* 🔥 NEW: Background full-width */
-  background-image: url("media/bg-hero.jpg"); /* ganti sesuai nama file lo */
+  background-image: url("https://www.devoteam.com/wp-content/uploads/2024/12/cloud-native-image-scaled-1.jpg"); /* ganti sesuai nama file lo */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
+
+  /* Gradient overlay biar gambarnya nyatu */
+  background-blend-mode: overlay;
+  background-color: rgba(233, 243, 255, 0.7);
 }
 
 .hero-content {
@@ -269,6 +273,7 @@ body {
   }
 
 }
+
 
 
 
