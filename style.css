@@ -195,12 +195,7 @@ body {
 /* Gambar kedua (yang ditumpuk dan diperbesar 2x) */
 .hero-img-bottom {
   position: absolute;
-  left: 50%;
-  transform: scale(1.5); 
-  transform-origin: center; 
   z-index: 1;
-  opacity: 1;                 /* lo mau 0.8? tinggal ubah */
-  pointer-events: none;       /* biar ga ganggu klik */
 }
 
 
@@ -288,6 +283,7 @@ body {
   }
 
 }
+
 
 
 
