@@ -97,7 +97,7 @@ body {
   background-image: url("media/CloudySky.svg"); /* ganti sesuai nama file lo */
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center top;
+  background-position: center bottom;
 }
 
 .hero-content {
@@ -222,7 +222,7 @@ body {
 
   .hero {
     background-size: cover;
-    background-position: top;
+    background-position: bottom;
   }
 
   .text h1 {
@@ -269,6 +269,7 @@ body {
   }
 
 }
+
 
 
 
