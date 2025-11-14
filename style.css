@@ -116,7 +116,7 @@ body {
 .label {
   letter-spacing: 2px;
   font-size: 13px;
-  color: #333;
+  color: #fff;
   font-weight: 500;
 }
 
@@ -306,6 +306,7 @@ body {
   }
 
 }
+
 
 
 
