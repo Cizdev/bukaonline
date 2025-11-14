@@ -197,7 +197,7 @@ body {
   position: absolute;
   z-index: 1;
   left: 50%;
-  transform: scale(0.7); 
+  transform: scale(0.5); 
 }
 
 
@@ -285,6 +285,7 @@ body {
   }
 
 }
+
 
 
 
