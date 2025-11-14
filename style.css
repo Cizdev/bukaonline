@@ -83,20 +83,21 @@ body {
 
 /* ========== Hero Section ========== */
 .hero {
-    width: 100%;
-    position: relative;
-    padding: 60px 20px 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    overflow: hidden;
+  /* ORIGINAL */
+  /* background: linear-gradient(to bottom, #e9f3ff 0%, #ffffff 100%); */
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 140px 5% 80px;
+  position: relative;
+  overflow: hidden;
 
-    /* 👉 Tambahin ini */
-    background-image: url("media/bg-hero.jpg"); /* ganti sesuai nama file lo */
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  /* 🔥 NEW: Background full-width */
+  background-image: url("media/bg-hero.jpg"); /* ganti sesuai nama file lo */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
 }
 
 .hero-content {
@@ -268,5 +269,6 @@ body {
   }
 
 }
+
 
 
