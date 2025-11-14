@@ -94,7 +94,7 @@ body {
   overflow: hidden;
 
   /* 🔥 NEW: Background full-width */
-  background-image: url("media/CloudSky"); /* ganti sesuai nama file lo */
+  background-image: url("media/CloudSky.png"); /* ganti sesuai nama file lo */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
@@ -269,6 +269,7 @@ body {
   }
 
 }
+
 
 
 
