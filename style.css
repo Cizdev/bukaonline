@@ -220,6 +220,11 @@ body {
     gap: 40px;
   }
 
+  .hero {
+    background-size: cover;
+    background-position: top;
+  }
+
   .text h1 {
     font-size: 52px;
   }
@@ -239,11 +244,6 @@ body {
   .launchpad-btn {
     display: none;
   }
-
-  .hero {
-    background-size: cover;
-    background-position: top;
-}
 }
 
 @media (max-width: 600px) {
@@ -269,6 +269,7 @@ body {
   }
 
 }
+
 
 
 
