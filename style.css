@@ -50,7 +50,7 @@ body {
 
 .nav-links a {
   text-decoration: none;
-  color: #111;
+  color: #fff;
   font-size: 14px;
   font-weight: 500;
   transition: 0.2s;
@@ -306,6 +306,7 @@ body {
   }
 
 }
+
 
 
 
