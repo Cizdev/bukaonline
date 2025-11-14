@@ -94,7 +94,7 @@ body {
   overflow: hidden;
 
   /* 🔥 NEW: Background full-width */
-  background-image: url("https://cdn.vectorstock.com/i/500p/98/08/fluffy-white-clouds-sky-vector-17069808.avif"); /* ganti sesuai nama file lo */
+  background-image: url("media/CloudSky"); /* ganti sesuai nama file lo */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
@@ -269,6 +269,7 @@ body {
   }
 
 }
+
 
 
 
