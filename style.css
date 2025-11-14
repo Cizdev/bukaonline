@@ -98,10 +98,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
-
-  /* Gradient overlay biar gambarnya nyatu */
-  background-blend-mode: overlay;
-  background-color: rgba(233, 243, 255, 0.7);
 }
 
 .hero-content {
@@ -273,6 +269,7 @@ body {
   }
 
 }
+
 
 
 
